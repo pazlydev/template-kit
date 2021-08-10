@@ -1,0 +1,104 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="article" />
+
+    <!-- Editable Meta Tags Start-->
+    <!-- IMPORTANT: Do not remove or change this part -->
+    <meta name="author" content="" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="og:title" property="og:title" content="" />
+    <meta name="og:description" property="og:description" content="" />
+    <meta name="og:image" property="og:image" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- Editable Meta Tags End-->
+
+    <!-- Tailwind CSS -->
+    <link href="https://unpkg.com/tailwindcss@^2.2/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- Pazly Colors -->
+    <link rel="stylesheet" href="https://pazly.dev/colors/gradients.css" />
+    <link rel="stylesheet" href="https://pazly.dev/colors/backgrounds.css" />
+    <link rel="stylesheet" href="https://pazly.dev/colors/text.css" />
+    <link rel="stylesheet" href="https://pazly.dev/colors/border.css" />
+    <style>
+    h1, h2, h3, h4, h5, h6 {
+        line-height:1.3 !important;
+    }
+    </style>
+
+    <!-- Fontswesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+
+    <style>
+    .stretchToScreen { width:100vw; height:100vh;}
+    </style>
+</head>
+
+<body class="m-0 p-0 stretchToScreen">
+
+    <!-- Pazly Blocks Come Here -->
+    <section id="pazly-template-set" class="m-0 p-0 stretchToScreen bg-white">
+
+        <!-- Example of a block -->
+        <section xmlns="http://www.w3.org/1999/xhtml"  class="w-full bg-p-white">
+            <div  class="w-full flex flex-col">
+                <div  class="w-full container mx-auto md:px-24 px-2 md:text-left text-center py-6 flex flex-col justify-center items-center">
+                    <div  class="w-full mb-4 py-2">
+                        <h1 pazly-editable="innerHTML clone"  class="w-full whitespace-pre-line text-5xl font-semibold text-center text-p-indigo-800">We help you build the brand 
+    your customers remember</h1>
+                    </div>
+                    <p pazly-editable="innerHTML "  class="w-full mb-8 leading-relaxed whitespace-pre-line text-center text-p-indigo-900">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div  class="w-full flex md:flex-row flex-col justify-center pb-6">
+                        <a pazly-editable="innerHTML href bg clone" target="_blank "  class="font-bold px-6 py-4 rounded outline-none focus:outline-none m-2 uppercase text-sm shadow hover:shadow-lg whitespace-pre-line bg-p-indigo-800 text-p-white" href>Book your free consultation</a>
+                        <a pazly-editable="innerHTML href bg clone" target="_blank "  class="font-bold px-6 py-4 rounded outline-none focus:outline-none m-2 uppercase text-sm shadow hover:shadow-lg whitespace-pre-line text-p-indigo-800 bg-p-gray-100" href>Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Add your next a block -->
+
+    </section>
+    <!-- Pazly Blocks Ends Here -->
+
+    <!-- Pazly Scripts Start Here -->
+    <section id="pazly-scripts-set" class="m-0 p-0 w-0 h-0">   
+        <!-- Example of custom scripting: Smooth scrolling -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            // handle links with @href started with '#' only
+            $(document).on('click', 'a[href^="#"]', function(e) {
+                // target element id
+                var id = $(this).attr('href');
+            
+                // target element
+                var $id = $(id);
+                if ($id.length === 0) {
+                    return;
+                }
+            
+                // prevent standard hash navigation (avoid blinking in IE)
+                e.preventDefault();
+            
+                // top position relative to the document
+                var pos = $id.offset().top;
+            
+                // animated top scrolling
+                $('body, html').animate({scrollTop: pos});
+            });
+        </script>  
+    </section>
+    <!-- Pazly Scripts End Here -->  
+
+</body>
+</html>
+            
