@@ -21,9 +21,11 @@ Benefits of making templates for Pazly:
 
 # Github Starter Kit
 
-The easiest way to start is to fork or download the starter kit from Github here [add link]
+The easiest way to start is to fork or download the starter kit from Github here https://github.com/pazlydev/template-kit
 
 It contains a simple file with dummy elements and the structure that allows Pazly to read and understand the template.
+
+Download the **index.html** and modify this to your linking
 
 
 # Color System
