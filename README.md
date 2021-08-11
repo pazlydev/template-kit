@@ -51,7 +51,7 @@ Editable elements should be marked with the ‘_pazly-editable_’ attribute. Th
 
 Example: 
 
-&lt;button** pazly-editable**=”innerHtml bg href”  class=”….
+	<button pazly-editable=”innerHtml bg href”  class=”….
 
 **_IMPORTANT: Please add these markers at leaf nodes in your HTML tree structure_**
 
@@ -60,7 +60,7 @@ Example:
 
 Add ‘innerHtml’ to the _pazly-editable_ attribute. This will enable a text editor for the element. Please make sure that the innerHtml contains only text
 
-&lt;a href=”” pazly-editable=”**innerHtml** bg href”  class=”….
+	<a href=”” pazly-editable=”innerHtml bg href”  class=”….
 
 
 ### Editing background
@@ -69,7 +69,7 @@ Simply add ‘bg’ to the _pazly-editable_ attribute. This will enable the colo
 
 Use the ‘bg’ to enable element level background. Choose this editor for your buttons, links, cards, or areas that you want the user to color differently. 
 
-&lt;a href=”” pazly-editable=”innerHtml **bg** href”  class=”….
+	<a href=”” pazly-editable=”innerHtml bg href”  class=”….
 
 **_IMPORTANT: The section background picker is assigned out of the box, please do not assign the pazly-editable attribute on the section block._**
 
@@ -78,7 +78,7 @@ Use the ‘bg’ to enable element level background. Choose this editor for your
 
 Add ‘href’ to the _pazly-editable_ attribute. This will enable the link input editor.  Choose this editor for your buttons and links
 
-&lt;**a** href=”” pazly-editable=”innerHtml bg **href**”  class=”….
+	<a href=”” pazly-editable=”innerHtml bg href”  class=”….
 
 
 ### Editing images
@@ -87,7 +87,7 @@ Editing images is as simple as setting the ‘src’ value on the _pazly-editabl
 
 **_IMPORTANT: Do not use pazly-editable=”src '' on HTML elements that do not support the src attribute natively. _**
 
-&lt;**img** src=”” pazly-editable=”**src**”  class=”….
+	<img src=”” pazly-editable=”src”  class=”….
 
 
 ### Editing videos
@@ -96,27 +96,28 @@ Editing video tags is as simple as setting the ‘src’ value on the _pazly-edi
 
 IMPORTANT: Do not use _pazly-editable=”src_ '' on HTML elements that do not support the src attribute natively. 
 
-&lt;**video** src=”” pazly-editable=”**src**”  class=”….
+	<video src=”” pazly-editable=”src”  class=”….
 
 
 ### Editing embeddables
 
 To enable embeddables, please construct a wrapper element. Attache the _pazly-editable_ attribute containing the “iframe” value. You can attach other edibles like ‘bg’. 
 
-&lt;**div**  pazly-editable="bg **iframe**" class="...
-
-	&lt;iframe …
-
-&lt;/div>
+	<div  pazly-editable="bg iframe" class="...
+		<iframe …
+	</div>
 
 Editing forms
 
 Attache the “form” value to the _pazly-editable_ attribute in the form tag, like in the example below.
 
-&lt;**form** pazly-editable="**form**" method="POST" action="" static-form="" class="...
+	<form pazly-editable="form" method="POST" action="" static-form="" class="...
 
 
 # Selling Online (Gumroad, Lemon Squeezy, etc.)
+You set your own prices, your own item description. Please add a video demo on how your customers should use the template you make with Pazly Pro. Please also add tell them they can reach Pasly Pro at https://pazly.dev/
 
 
 # Getting Featured in Pazly Pro
+This means that when Pazly Pro users open the Template pannel, your template will show up with a quick link to purchase. This works only with Gumroad for now. 
+Instructions on how to submit coming soon...
