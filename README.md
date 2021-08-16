@@ -30,12 +30,12 @@ Download the **index.html** and modify this to your linking
 
 # Color System
 
-Pazly uses its own implementation of the coloring system proposed by the Tailwind CSS team. Since Tailwind uses a plugin system and Pazly targets non technical users, we opted to implement a standalone coloring system which is served through CDN. It includes static colors as well as gradients. Check the guide below for the class names and color codes. 
+Pazly uses its own implementation of the coloring system proposed by the Tailwind CSS team. Since Tailwind uses a plugin system and Pazly targets non technical users, we opted to implement a standalone coloring system which is served through CDN. 
 
-[_coming soon_]
+[**Check the guide on Medium for the class names and color codes.**](https://pazly.medium.com/the-pazly-color-system-fdc37ebb02c3)
 
 
-# Template structure.
+# Template structure
 
 A landing page for Pazly is formed from a set of blocks. Each block has within it editable elements. It is very important to understand the difference between blocks and the elements within the blocks
 
