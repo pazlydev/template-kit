@@ -32,7 +32,7 @@ Download the **index.html** and modify this to your linking
 
 Pazly uses its own implementation of the coloring system proposed by the Tailwind CSS team. Since Tailwind uses a plugin system and Pazly targets non technical users, we opted to implement a standalone coloring system which is served through CDN. 
 
-[**Check the guide on Medium for the class names and color codes.**](https://pazly.medium.com/the-pazly-color-system-fdc37ebb02c3)
+<a href="https://pazly.medium.com/the-pazly-color-system-fdc37ebb02c3" target="_blank"><b>Check the guide on Medium for the class names, rules and color codes.</b></a>
 
 
 # Template structure
