@@ -51,7 +51,9 @@ Editable elements should be marked with the `pazly-editable` attribute. This is 
 
 Example: 
 	<pre>
-		<button <b>pazly-editable</b>=”innerHtml bg href”  class=”….
+		<code>
+			<button <b>pazly-editable</b>="innerHtml bg href"  class="...
+		</code>
 	</pre>
 **IMPORTANT: Please add these markers at leaf nodes in your HTML tree structure**
 
@@ -60,7 +62,9 @@ Example:
 
 Add `innerHtml` to the _pazly-editable_ attribute. This will enable a text editor for the element. Please make sure that the innerHtml contains only text
 	<pre>
-		<a href=”” pazly-editable=”<b>innerHtml</b> bg href”  class=”….
+		<code>
+			<a href="" pazly-editable="<b>innerHtml</b> bg href"  class="....
+		</code>
 	</pre>
 
 ### Editing background
@@ -69,7 +73,9 @@ Simply add `bg` to the _pazly-editable_ attribute. This will enable the color pi
 
 Use the `bg` to enable element level background. Choose this editor for your buttons, links, cards, or areas that you want the user to color differently. 
 	<pre>
-		<a href=”” pazly-editable=”innerHtml <b>bg</b> href”  class=”….
+		<code>
+			<a href="" pazly-editable="innerHtml <b>bg</b> href"  class="...
+		</code>
 	</pre>
 
 **IMPORTANT: The section background picker is assigned out of the box, please do not assign the pazly-editable attribute on the section block.**
@@ -79,34 +85,42 @@ Use the `bg` to enable element level background. Choose this editor for your but
 
 Add `href` to the _pazly-editable_ attribute. This will enable the link input editor.  Choose this editor for your buttons and links
 	<pre>
-		<a href=”” pazly-editable=”innerHtml bg <b>href</b>”  class=”….
+		<code>
+			<a href="" pazly-editable="innerHtml bg <b>href</b>"  class="....
+		</code>
 	</pre>
 
 ### Editing images
 
 Editing images is as simple as setting the `src` value on the _pazly-editable_ attribute of an image tag. This will enable the image editor which allows you to set an image link or open an image from your computer. The opened image is later transformed into a base64 string. 
 
-**IMPORTANT: Do not use `pazly-editable=”src"` on HTML elements that do not support the src attribute natively.**
+**IMPORTANT: Do not use `pazly-editable="src"` on HTML elements that do not support the src attribute natively.**
 	<pre>
-		<img src=”” <b>pazly-editable=”src”</b>  class=”….
+		<code>
+			<img src="" <b>pazly-editable="src"</b>  class="...
+		</code>
 	</pre>
 
 ### Editing videos
 
 Editing video tags is as simple as setting the `src` value on the _pazly-editable_ attribute of a video tag. This will enable the video editor which lets you set a video link. At the moment videos only support one video link, so please use a link that point to a **.mp4 video**
 
-**IMPORTANT: Do not use `pazly-editable=”src"` on HTML elements that do not support the src attribute natively.**
+**IMPORTANT: Do not use `pazly-editable="src"` on HTML elements that do not support the src attribute natively.**
 	<pre>
-		<video src=”” <b>pazly-editable=”src”</b>  class=”….
+		<code>
+			<video src="" <b>pazly-editable="src"</b>  class="...
+		</code>
 	</pre>
 
 ### Editing embeddables
 
 To enable embeddables, please construct a wrapper element. Attache the _pazly-editable_ attribute containing the `iframe` value. You can attach other editables like `bg`. 
 	<pre>
-		<div pazly-editable="<b>iframe</b> bg" class="...
-			<iframe …
-		</div>
+		<code>
+			<div pazly-editable="<b>iframe</b> bg" class="...
+				<iframe ...
+			</div>
+		</code>
 	</pre>
 
 ### Editing forms
