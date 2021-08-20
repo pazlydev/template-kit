@@ -18,6 +18,10 @@ Benefits of making templates for Pazly:
 
 ✅ You help a fast growing number of users who will benefit from your awesome work.
 
+# Test your work on Pazly Pro
+To test your work and make sure nocode users can use what you've build, please Sign Up to Pazly Pro account at https://pazly.dev/ 
+
+As a developer, you can get a **40% discount forever**. Use the `40OFF4DEVS` coupon after the 10 free trial days. Limited to 1000 new signups.
 
 # Github Starter Kit
 
@@ -97,7 +101,7 @@ Editing images is as simple as setting the `src` value on the _pazly-editable_ a
 **IMPORTANT: Do not use `pazly-editable="src"` on HTML elements that do not support the src attribute natively.**
 	<pre>
 		<code>
-			<img src="" <b>pazly-editable="src"</b>  class="...
+			<img src="" <b>pazly-editable="src"</b>  class="....
 		</code>
 	</pre>
 
