@@ -56,7 +56,7 @@ Editable elements should be marked with the `pazly-editable` attribute. This is 
 Example: 
 	<pre>
 		<code>
-			<button <b>pazly-editable</b>="innerHtml bg href"  class="...
+			<button <b>pazly-editable</b>="innerHTML bg href"  class="...
 		</code>
 	</pre>
 **IMPORTANT: Please add these markers at leaf nodes in your HTML tree structure**
@@ -64,10 +64,10 @@ Example:
 
 ### Editing text
 
-Add `innerHtml` to the _pazly-editable_ attribute. This will enable a text editor for the element. Please make sure that the innerHtml contains only text
+Add `innerHTML` to the _pazly-editable_ attribute. This will enable a text editor for the element. Please make sure that the innerHTML contains only text
 	<pre>
 		<code>
-			<a href="" pazly-editable="<b>innerHtml</b> bg href"  class="....
+			<a href="" pazly-editable="<b>innerHTML</b> bg href"  class="....
 		</code>
 	</pre>
 
@@ -78,7 +78,7 @@ Simply add `bg` to the _pazly-editable_ attribute. This will enable the color pi
 Use the `bg` to enable element level background. Choose this editor for your buttons, links, cards, or areas that you want the user to color differently. 
 	<pre>
 		<code>
-			<a href="" pazly-editable="innerHtml <b>bg</b> href"  class="...
+			<a href="" pazly-editable="innerHTML <b>bg</b> href"  class="...
 		</code>
 	</pre>
 
@@ -90,7 +90,7 @@ Use the `bg` to enable element level background. Choose this editor for your but
 Add `href` to the _pazly-editable_ attribute. This will enable the link input editor.  Choose this editor for your buttons and links
 	<pre>
 		<code>
-			<a href="" pazly-editable="innerHtml bg <b>href</b>"  class="....
+			<a href="" pazly-editable="innerHTML bg <b>href</b>"  class="....
 		</code>
 	</pre>
 
